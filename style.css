@@ -107,4 +107,30 @@ ul li span:hover{
     background: #edeef0;
 }
 
+@media (max-width:600px) {
+    .todo-app{
+        width: 100%;
+        max-width: 340px ;
+        transition: 0.2s;
+        margin: 50% auto 20px;
+    }
+    .todo-app h2{
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .row button{
+        padding: 10px 30px;
+    
+    }
+    ul li{
+        font-size: 15px;
+    }
+    ul li::before{
+        width: 20px;
+        height: 20px;
+        top: 14px;
+    }
+}
+
 
